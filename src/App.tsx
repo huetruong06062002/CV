@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Video5 from './examples/Video5'
+import Video7 from './examples/Video7'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -30,6 +31,7 @@ function App() {
         <Video5
         name={"eric"}
         />
+        <Video7/>
       </p>
     </div>
   )
